@@ -6,14 +6,37 @@ body {
 	background: radial-gradient(circle, rgba(241, 89, 34, 0.1) 0.2em, rgba(255, 255, 255, 0) 0.3em) 0 -.5rem;
 	background-size: 6rem 6rem;
 	background-color: #f7f5f5;
-    font-family: 'Roboto', sans-serif;
-    font-size: 18px;
-	margin-bottom: 30%;
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+}
+
+article {
+	position: absolute;
+	height: 200px;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, 50%);
+	margin-bottom: 400px;
+}
+
+footer {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	height: 250px;
+	background-color: #f2f2f2;
+}
+
+.content {
+	padding-top: 2.5rem;
+	text-align: left;
+	width: 100%;
+	display: flex;
 }
 
 p {
 	margin-top: 1rem;
-    text-align: center;
+	text-align: center;
 	color: #f15922;
 	font-size: 23px;
 	font-weight: 600;
@@ -22,15 +45,15 @@ p {
 
 .logo-img {
 	display: block;
-    margin-left: auto;
-    margin-right: auto;
-	margin-top: 15%;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .btn-orange {
 	color: #fff;
-    background-color: #f15922;
-    border-color: #f15922;
+	background-color: #f15922;
+	border-color: #f15922;
+	transition: none;
 }
 
 .btn-lg {
@@ -48,7 +71,7 @@ p {
 }
 
 .btn-fr img {
-	 margin: 0 0 0 -.2rem;
+	margin: 0 0 0 -.2rem;
 }
 
 .btn-orange.focus,
@@ -63,25 +86,25 @@ p {
 
 .input-lg {
 	height: 3rem;
+	transition: none;
 }
 
-.footer {
-    position: absolute;
-	padding-top: 2.5rem;
-	bottom: 0;
-    width: 100%;
-    height: 15rem;
-    background-color: #f2f2f2;
-    text-align: left;
+.row {
+	max-width: 90%;
+	margin: 0 auto;
 }
 
-.card-body {
+.thed {
 	display: inline-block;
+	float: left;
+	margin-right: 1rem;
+
 }
 
 .form-control {
 	border: 3px solid #F1591D;
-    border-radius: .3rem;
+	border-radius: .3rem;
+	transition: none;
 }
 
 .form-control.focus,
