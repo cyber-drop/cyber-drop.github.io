@@ -8,6 +8,7 @@ body {
 	background-color: #f7f5f5;
 	font-family: 'Roboto', sans-serif;
 	font-size: 18px;
+	height: 100vh;
 }
 
 article {
@@ -15,7 +16,7 @@ article {
 	height: 200px;
 	left: 50%;
 	top: 50%;
-	transform: translate(-50%, 50%);
+	transform: translateY(-125px) translate(-50%, -50%);
 	margin-bottom: 400px;
 }
 
