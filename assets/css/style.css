@@ -130,7 +130,7 @@ p {
 	article {
 		position: absolute;
 		left: 50%;
-		top: 50%;
+		top: 45%;
 		transform: translateY(-125px) translate(-50%, -50%);
 		margin-bottom: 400px;
     	height: 1vh;
